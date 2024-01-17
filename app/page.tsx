@@ -3,6 +3,7 @@ import Link from "next/link";
 import ProductCard from "./components/ProductCard";
 import RandomCatImage from "./components/RandomCatImage";
 import Crudpage from "./components/Crudpage";
+import NextFastAPI from "./components/NextFastAPI";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ProductCard />
       <RandomCatImage />
       <Crudpage />
+      <NextFastAPI />
     </main>
   );
 }
