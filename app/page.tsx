@@ -4,6 +4,7 @@ import ProductCard from "./components/ProductCard";
 import RandomCatImage from "./components/RandomCatImage";
 import Crudpage from "./components/Crudpage";
 import NextFastAPI from "./components/NextFastAPI";
+import newclientsidefetch from "./components/newclientsidefetch";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ProductCard />
       <RandomCatImage />
       <NextFastAPI />
+      <newclientsidefetch />
     </main>
   );
 }
