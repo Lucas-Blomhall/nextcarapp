@@ -17,13 +17,10 @@ const Crudpage = () => {
   // const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios
-      .get("http://0.0.0.0:80/cars")
-      .then((response) => {
-        console.log(response.data);
-        setData(response.data);
-      })
-      .catch((error) => console.error("Error fetching data", error));
+    fetch("http://0.0.0.0:80/cars")
+      .then((response) => response.json())
+      .then((data) => setData(data))
+      .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
   // if (isLoading) return <p>Loading...</p>;
