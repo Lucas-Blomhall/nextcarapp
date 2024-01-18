@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from "react";
 
 const NextFastAPI = () => {
@@ -17,13 +19,11 @@ const NextFastAPI = () => {
   return (
     <div>
       <h1>Users</h1>
-      <ul>
+      {/* <ul>
         {users.map((user, index) => (
-          <li key={index}>
-            {user}
-          </li>
+          <li key={index}>{user}</li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };

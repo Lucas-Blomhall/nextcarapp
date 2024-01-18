@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <main>
       <h1>Car webpage FastAPI</h1>
+      <Crudpage />
       <Link href="/users">Users</Link>
       <ProductCard />
       <RandomCatImage />
-      <Crudpage />
       <NextFastAPI />
     </main>
   );
